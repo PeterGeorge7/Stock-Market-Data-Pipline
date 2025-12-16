@@ -1,0 +1,74 @@
+[0m21:18:33.448833 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D5D8B2960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D5B78CB30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D5E6EFDD0>]}
+
+
+============================== 21:18:33.456948 | 422cdf23-3dc1-45b0-9668-27c56be63aa4 ==============================
+[0m21:18:33.456948 [info ] [MainThread]: Running with dbt=1.10.15
+[0m21:18:33.457948 [debug] [MainThread]: running dbt with arguments {'profiles_dir': 'C:\\Users\\LAPTOP SHOP\\.dbt', 'cache_selected_only': 'False', 'use_colors': 'True', 'log_format': 'default', 'write_json': 'True', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'invocation_command': 'dbt init stock_mds', 'printer_width': '80', 'target_path': 'None'}
+[0m21:18:33.503203 [debug] [MainThread]: Starter project path: D:\Apps\Anaconda\envs\stock-market-mds\Lib\site-packages\dbt\include\starter_project
+[0m21:18:33.534692 [info ] [MainThread]: 
+Your new dbt project "stock_mds" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:18:33.535717 [info ] [MainThread]: Setting up your profile.
+[0m21:18:50.349230 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m21:18:50.349230 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m21:18:50.350234 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m21:21:22.607596 [info ] [MainThread]: Profile stock_mds written to C:\Users\LAPTOP SHOP\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:21:22.610681 [debug] [MainThread]: Command `dbt init` succeeded at 21:21:22.609599 after 169.33 seconds
+[0m21:21:22.611595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D60693BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D5FF0A030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D60B24470>]}
+[0m21:21:22.611595 [debug] [MainThread]: Flushing usage events
+[0m21:21:23.564382 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:21:38.776524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF2FB35D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF2FB85970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF2FB36D20>]}
+
+
+============================== 21:21:38.782918 | e8cb7383-0887-4a9c-9bb3-2d109c3071fd ==============================
+[0m21:21:38.782918 [info ] [MainThread]: Running with dbt=1.10.15
+[0m21:21:38.783904 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'profiles_dir': 'C:\\Users\\LAPTOP SHOP\\.dbt', 'invocation_command': 'dbt debug', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'use_colors': 'True', 'printer_width': '80', 'target_path': 'None'}
+[0m21:21:38.811919 [info ] [MainThread]: dbt version: 1.10.15
+[0m21:21:38.812900 [info ] [MainThread]: python version: 3.12.12
+[0m21:21:38.812900 [info ] [MainThread]: python path: D:\Apps\Anaconda\envs\stock-market-mds\python.exe
+[0m21:21:38.813900 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:21:39.282744 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m21:21:39.283246 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m21:21:39.283746 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m21:21:39.356780 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m21:21:39.362780 [info ] [MainThread]: Using profiles dir at C:\Users\LAPTOP SHOP\.dbt
+[0m21:21:39.364490 [info ] [MainThread]: Using profiles.yml file at C:\Users\LAPTOP SHOP\.dbt\profiles.yml
+[0m21:21:39.364688 [info ] [MainThread]: Using dbt_project.yml file at D:\Data Engineer\Data Engineering Projects\Stock Market - MDS\dags\dbt\dbt_project.yml
+[0m21:21:39.365691 [info ] [MainThread]: Configuration:
+[0m21:21:39.366689 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m21:21:39.366689 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:21:39.367689 [info ] [MainThread]: Required dependencies:
+[0m21:21:39.368689 [debug] [MainThread]: Executing "git --help"
+[0m21:21:39.425185 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:21:39.425676 [debug] [MainThread]: STDERR: "b''"
+[0m21:21:39.426178 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:21:39.427018 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m21:21:39.427018 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:21:39.428042 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "peter_lean1", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+
+[0m21:21:39.429024 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Data Engineer\Data Engineering Projects\Stock Market - MDS\dags\dbt\dbt_project.yml> not found
+
+[0m21:21:39.430024 [debug] [MainThread]: Command `dbt debug` failed at 21:21:39.430024 after 0.79 seconds
+[0m21:21:39.431049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF30177FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF322AAEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF322891C0>]}
+[0m21:21:39.431049 [debug] [MainThread]: Flushing usage events
+[0m21:21:40.272664 [debug] [MainThread]: An error was encountered while trying to flush usage events
